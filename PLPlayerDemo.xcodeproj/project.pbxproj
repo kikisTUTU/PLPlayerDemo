@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F6330F91D7D1670006E8585 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6330F81D7D1670006E8585 /* libz.tbd */; };
+		2F6330FB1D7D1691006E8585 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6330FA1D7D1691006E8585 /* libresolv.tbd */; };
+		2FB8DDAF1D86AB6800A205A0 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8DDAE1D86AB6800A205A0 /* ZFPlayer.bundle */; };
+		2FB8DDB21D86B06000A205A0 /* HKPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8DDB11D86B06000A205A0 /* HKPlayerView.m */; };
+		2FB8DDB51D86BAE600A205A0 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8DDB41D86BAE600A205A0 /* PlayerView.m */; };
+		2FCDE48F1D70324900A38099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDE48E1D70324900A38099 /* main.m */; };
+		2FCDE4921D70324900A38099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDE4911D70324900A38099 /* AppDelegate.m */; };
+		2FCDE4951D70324A00A38099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDE4941D70324A00A38099 /* ViewController.m */; };
+		2FCDE4981D70324A00A38099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDE4961D70324A00A38099 /* Main.storyboard */; };
+		2FCDE49A1D70324A00A38099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDE4991D70324A00A38099 /* Assets.xcassets */; };
+		2FCDE49D1D70324A00A38099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDE49B1D70324A00A38099 /* LaunchScreen.storyboard */; };
+		2FCDE4A81D70324A00A38099 /* PLPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDE4A71D70324A00A38099 /* PLPlayerDemoTests.m */; };
+		2FCDE4B31D70324A00A38099 /* PLPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDE4B21D70324A00A38099 /* PLPlayerDemoUITests.m */; };
+		73C5F9D15B7B5008677FD3A7 /* libPods-PLPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C093FA888FD777F845197 /* libPods-PLPlayerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FCDE4A41D70324A00A38099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FCDE4821D70324900A38099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FCDE4891D70324900A38099;
+			remoteInfo = PLPlayerDemo;
+		};
+		2FCDE4AF1D70324A00A38099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FCDE4821D70324900A38099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FCDE4891D70324900A38099;
+			remoteInfo = PLPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8C093FA888FD777F845197 /* libPods-PLPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6330F81D7D1670006E8585 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2F6330FA1D7D1691006E8585 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		2FB8DDAD1D86AA6F00A205A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FB8DDAE1D86AB6800A205A0 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		2FB8DDB01D86B06000A205A0 /* HKPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKPlayerView.h; sourceTree = "<group>"; };
+		2FB8DDB11D86B06000A205A0 /* HKPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKPlayerView.m; sourceTree = "<group>"; };
+		2FB8DDB31D86BAE600A205A0 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		2FB8DDB41D86BAE600A205A0 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		2FCDE48A1D70324900A38099 /* PLPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCDE48E1D70324900A38099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FCDE4901D70324900A38099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FCDE4911D70324900A38099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FCDE4931D70324A00A38099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FCDE4941D70324A00A38099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FCDE4971D70324A00A38099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FCDE4991D70324A00A38099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FCDE49C1D70324A00A38099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FCDE49E1D70324A00A38099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCDE4A31D70324A00A38099 /* PLPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCDE4A71D70324A00A38099 /* PLPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLPlayerDemoTests.m; sourceTree = "<group>"; };
+		2FCDE4A91D70324A00A38099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCDE4AE1D70324A00A38099 /* PLPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCDE4B21D70324A00A38099 /* PLPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLPlayerDemoUITests.m; sourceTree = "<group>"; };
+		2FCDE4B41D70324A00A38099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E604F3CD06FC59FBB816F6D /* Pods-PLPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLPlayerDemo/Pods-PLPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F377D3EBBFEBB2D6D59585A1 /* Pods-PLPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLPlayerDemo/Pods-PLPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCDE4871D70324900A38099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6330FB1D7D1691006E8585 /* libresolv.tbd in Frameworks */,
+				2F6330F91D7D1670006E8585 /* libz.tbd in Frameworks */,
+				73C5F9D15B7B5008677FD3A7 /* libPods-PLPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE4A01D70324A00A38099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE4AB1D70324A00A38099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8FF1B6CF0334D155639FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E604F3CD06FC59FBB816F6D /* Pods-PLPlayerDemo.debug.xcconfig */,
+				F377D3EBBFEBB2D6D59585A1 /* Pods-PLPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FCDE4811D70324900A38099 = {
+			isa = PBXGroup;
+			children = (
+				2FCDE48C1D70324900A38099 /* PLPlayerDemo */,
+				2FCDE4A61D70324A00A38099 /* PLPlayerDemoTests */,
+				2FCDE4B11D70324A00A38099 /* PLPlayerDemoUITests */,
+				2FCDE48B1D70324900A38099 /* Products */,
+				1C8FF1B6CF0334D155639FD1 /* Pods */,
+				9CC5EA23E6102842526B51CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FCDE48B1D70324900A38099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDE48A1D70324900A38099 /* PLPlayerDemo.app */,
+				2FCDE4A31D70324A00A38099 /* PLPlayerDemoTests.xctest */,
+				2FCDE4AE1D70324A00A38099 /* PLPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FCDE48C1D70324900A38099 /* PLPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDE4901D70324900A38099 /* AppDelegate.h */,
+				2FCDE4911D70324900A38099 /* AppDelegate.m */,
+				2FCDE4931D70324A00A38099 /* ViewController.h */,
+				2FCDE4941D70324A00A38099 /* ViewController.m */,
+				2FB8DDB01D86B06000A205A0 /* HKPlayerView.h */,
+				2FB8DDB11D86B06000A205A0 /* HKPlayerView.m */,
+				2FB8DDB31D86BAE600A205A0 /* PlayerView.h */,
+				2FB8DDB41D86BAE600A205A0 /* PlayerView.m */,
+				2FB8DDAE1D86AB6800A205A0 /* ZFPlayer.bundle */,
+				2FB8DDAD1D86AA6F00A205A0 /* PrefixHeader.pch */,
+				2FCDE4961D70324A00A38099 /* Main.storyboard */,
+				2FCDE4991D70324A00A38099 /* Assets.xcassets */,
+				2FCDE49B1D70324A00A38099 /* LaunchScreen.storyboard */,
+				2FCDE49E1D70324A00A38099 /* Info.plist */,
+				2FCDE48D1D70324900A38099 /* Supporting Files */,
+			);
+			path = PLPlayerDemo;
+			sourceTree = "<group>";
+		};
+		2FCDE48D1D70324900A38099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDE48E1D70324900A38099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FCDE4A61D70324A00A38099 /* PLPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDE4A71D70324A00A38099 /* PLPlayerDemoTests.m */,
+				2FCDE4A91D70324A00A38099 /* Info.plist */,
+			);
+			path = PLPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		2FCDE4B11D70324A00A38099 /* PLPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDE4B21D70324A00A38099 /* PLPlayerDemoUITests.m */,
+				2FCDE4B41D70324A00A38099 /* Info.plist */,
+			);
+			path = PLPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		9CC5EA23E6102842526B51CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6330FA1D7D1691006E8585 /* libresolv.tbd */,
+				2F6330F81D7D1670006E8585 /* libz.tbd */,
+				0F8C093FA888FD777F845197 /* libPods-PLPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FCDE4891D70324900A38099 /* PLPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCDE4B71D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemo" */;
+			buildPhases = (
+				664CAF6A2B92E2E954895BC9 /* [CP] Check Pods Manifest.lock */,
+				2FCDE4861D70324900A38099 /* Sources */,
+				2FCDE4871D70324900A38099 /* Frameworks */,
+				2FCDE4881D70324900A38099 /* Resources */,
+				67852E981F475F8B508642A6 /* [CP] Embed Pods Frameworks */,
+				85BC34CA2E148063C69FAC72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PLPlayerDemo;
+			productName = PLPlayerDemo;
+			productReference = 2FCDE48A1D70324900A38099 /* PLPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FCDE4A21D70324A00A38099 /* PLPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCDE4BA1D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemoTests" */;
+			buildPhases = (
+				2FCDE49F1D70324A00A38099 /* Sources */,
+				2FCDE4A01D70324A00A38099 /* Frameworks */,
+				2FCDE4A11D70324A00A38099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FCDE4A51D70324A00A38099 /* PBXTargetDependency */,
+			);
+			name = PLPlayerDemoTests;
+			productName = PLPlayerDemoTests;
+			productReference = 2FCDE4A31D70324A00A38099 /* PLPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FCDE4AD1D70324A00A38099 /* PLPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCDE4BD1D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemoUITests" */;
+			buildPhases = (
+				2FCDE4AA1D70324A00A38099 /* Sources */,
+				2FCDE4AB1D70324A00A38099 /* Frameworks */,
+				2FCDE4AC1D70324A00A38099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FCDE4B01D70324A00A38099 /* PBXTargetDependency */,
+			);
+			name = PLPlayerDemoUITests;
+			productName = PLPlayerDemoUITests;
+			productReference = 2FCDE4AE1D70324A00A38099 /* PLPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FCDE4821D70324900A38099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "贺凯";
+				TargetAttributes = {
+					2FCDE4891D70324900A38099 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2FCDE4A21D70324A00A38099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2FCDE4891D70324900A38099;
+					};
+					2FCDE4AD1D70324A00A38099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2FCDE4891D70324900A38099;
+					};
+				};
+			};
+			buildConfigurationList = 2FCDE4851D70324900A38099 /* Build configuration list for PBXProject "PLPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FCDE4811D70324900A38099;
+			productRefGroup = 2FCDE48B1D70324900A38099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FCDE4891D70324900A38099 /* PLPlayerDemo */,
+				2FCDE4A21D70324A00A38099 /* PLPlayerDemoTests */,
+				2FCDE4AD1D70324A00A38099 /* PLPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FCDE4881D70324900A38099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB8DDAF1D86AB6800A205A0 /* ZFPlayer.bundle in Resources */,
+				2FCDE49D1D70324A00A38099 /* LaunchScreen.storyboard in Resources */,
+				2FCDE49A1D70324A00A38099 /* Assets.xcassets in Resources */,
+				2FCDE4981D70324A00A38099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE4A11D70324A00A38099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE4AC1D70324A00A38099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		664CAF6A2B92E2E954895BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67852E981F475F8B508642A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLPlayerDemo/Pods-PLPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BC34CA2E148063C69FAC72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLPlayerDemo/Pods-PLPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FCDE4861D70324900A38099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB8DDB21D86B06000A205A0 /* HKPlayerView.m in Sources */,
+				2FCDE4951D70324A00A38099 /* ViewController.m in Sources */,
+				2FCDE4921D70324900A38099 /* AppDelegate.m in Sources */,
+				2FCDE48F1D70324900A38099 /* main.m in Sources */,
+				2FB8DDB51D86BAE600A205A0 /* PlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE49F1D70324A00A38099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCDE4A81D70324A00A38099 /* PLPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCDE4AA1D70324A00A38099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCDE4B31D70324A00A38099 /* PLPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FCDE4A51D70324A00A38099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FCDE4891D70324900A38099 /* PLPlayerDemo */;
+			targetProxy = 2FCDE4A41D70324A00A38099 /* PBXContainerItemProxy */;
+		};
+		2FCDE4B01D70324A00A38099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FCDE4891D70324900A38099 /* PLPlayerDemo */;
+			targetProxy = 2FCDE4AF1D70324A00A38099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FCDE4961D70324A00A38099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCDE4971D70324A00A38099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FCDE49B1D70324A00A38099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCDE49C1D70324A00A38099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FCDE4B51D70324A00A38099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FCDE4B61D70324A00A38099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FCDE4B81D70324A00A38099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E604F3CD06FC59FBB816F6D /* Pods-PLPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PLPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FCDE4B91D70324A00A38099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F377D3EBBFEBB2D6D59585A1 /* Pods-PLPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PLPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FCDE4BB1D70324A00A38099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PLPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLPlayerDemo.app/PLPlayerDemo";
+			};
+			name = Debug;
+		};
+		2FCDE4BC1D70324A00A38099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PLPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PLPlayerDemo.app/PLPlayerDemo";
+			};
+			name = Release;
+		};
+		2FCDE4BE1D70324A00A38099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PLPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PLPlayerDemo;
+			};
+			name = Debug;
+		};
+		2FCDE4BF1D70324A00A38099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PLPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hekai.PLPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PLPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCDE4851D70324900A38099 /* Build configuration list for PBXProject "PLPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCDE4B51D70324A00A38099 /* Debug */,
+				2FCDE4B61D70324A00A38099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCDE4B71D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCDE4B81D70324A00A38099 /* Debug */,
+				2FCDE4B91D70324A00A38099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCDE4BA1D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCDE4BB1D70324A00A38099 /* Debug */,
+				2FCDE4BC1D70324A00A38099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCDE4BD1D70324A00A38099 /* Build configuration list for PBXNativeTarget "PLPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCDE4BE1D70324A00A38099 /* Debug */,
+				2FCDE4BF1D70324A00A38099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FCDE4821D70324900A38099 /* Project object */;
+}

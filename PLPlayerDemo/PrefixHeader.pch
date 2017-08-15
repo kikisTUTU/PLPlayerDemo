@@ -1,0 +1,103 @@
+//
+//  PrefixHeader.pch
+//  FreshFun
+//
+//  Created by gnine on 16/5/9.
+//  Copyright © 2016年 quxin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+
+#import "CategoryWF.h"
+#import "Util.h"
+#import <UIKit/UIKit.h>//Zbar二维码扫描的时候需要用到
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import <UIImageView+WebCache.h>
+#import <AFNetworking/AFNetworking.h>
+#import "YTKKeyValueStore.h"
+#import "ZFPlayer.h"
+#import <Masonry/Masonry.h>
+#import "NSString+MD5.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD+Add.h"
+#import "MJRefresh.h"
+#import "UIView+Common.h"
+#import "UMMobClick/MobClick.h"
+//umeng分享
+//#import "UMSocial.h"
+//#import "UMSocialQQHandler.h"
+//#import "UMSocialSinaSSOHandler.h"
+//#import "UMSocialWechatHandler.h"
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(@"%s %d \n %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define NSLog(...)
+#endif
+#define iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone5s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6p ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define iPhone6sp ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+//获取系统时间戳
+#define getCurentTime [NSString stringWithFormat:@"%f",[[NSDate dateWithTimeIntervalSinceNow:0] timeIntervalSince1970]*1000]
+#define IMG( X )	     [UIImage imageNamed:X]
+#define IV @"abcdef0123456789"//加密偏移
+//友盟分享
+#define UMengShareKey @"57a15e3967e58eb8d4002868"
+//新浪微博分享
+#define SinaAppKey @"3124133112"
+#define SinaAppSecret @"7e4acc3eee491f0adade35d2b33041e1"
+#define SinaBackUrl @"http://sns.whalecloud.com/sina2/callback"
+//QQ，QQ空间分享
+#define QQAppID @"1105588514"
+#define QQAppKey @"GZe7455bgXY2CMYI"
+//微信
+#define WXAppSecret @"e2655bf4c5ae255152c460a26c3a1df8"
+#define WXAppID @"wx5f13c1710b73ea08"
+//umeng统计APPkey
+#define UmengStatisticsAppKey @"57a7ef8ee0f55a0fd30032e5"
+//定义字号
+#define FONT_TITLE(X)                   [UIFont systemFontOfSize:X]
+#define _StrFormat(x,y) [NSString stringWithFormat:@"%@%@",x,y]
+//获取整个app delegate
+#define _GET_APP_DELEGATE_(appDelegate) AppDelegate* appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+/**
+ *  正式环境接口
+ */
+#define API @"http://app.1shitou.com/app/"
+#define IMAGEAPI @"http://images.1shitou.com/"
+/**
+ *  测试环境接口
+ *
+ *  @return <#return value description#>
+ */
+//#define API @"http://223.100.7.112/app/"
+//#define IMAGEAPI @"http://images.1shitou.com/"
+#endif
+#endif /* PrefixHeader_pch */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
